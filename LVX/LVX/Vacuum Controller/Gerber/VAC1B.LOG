@@ -1,0 +1,47 @@
+     TRAXMAKER VERSION 2.0 STATISTICS LOG
+     LOG FILENAME : C:\DESIGN\DEV\Vac1b.LOG
+     DATE         : 4-29-1998
+     TIME         : 10:17
+
+     INPUT  .PCB FILE : C:\DESIGN\DEV\Vac1b.PCB
+
+     ROUTE VARIABLE SETTINGS
+     Grid Size        : 5
+     Track Size       : 15
+     Via Size         : 40
+     Arc Size         : 50
+     Track to Track   : 15
+     Track to Pad/Via : 10
+     Via to Via       : 15
+     Via to Pad       : 10
+     Wave Limit       : 1
+
+     ROUTING PERFORMANCE 
+     Pass                 Connections        Percentage        Time in
+     Title                   Routed          Completed         Pass 
+     Process Pre-Routes                                        Not Used
+     Smd to Pwr/Gnd                                            Not Used
+     Memory Routes             11               16.7           00:00:00
+     Horizontal                11               16.7           00:00:00
+     Vertical                   3                4.5           00:00:00
+     L-Routes    (2 Via)       29               43.9           00:00:01
+     Z-Routes    (2 Via)        8               12.1           00:00:01
+     C-Routes    (2 Via)        3                4.5           00:00:01
+     Any Node    (2 Via)        0                0.0           00:00:00
+     Maze Routes (3 Via)        1                1.5           00:00:01
+     Any Node    (3 Via)        0                0.0           00:00:00
+                  Totals :     66              100.0           00:00:04
+
+     SMOOTHING PERFORMANCE 
+     Pass                    Tracks            Vias            Time in
+     Title                   Swapped           Removed         Pass 
+     Via Minimization                                          Not Used
+     Loop Remover                                              Not Used
+     Double Back Remover                                       Not Used
+     Dual Stub Remover                                         Not Used
+     Two Via Remover                                           Not Used
+     Arc Replacer                                              Not Used
+                  Totals :      0                  0           00:00:04
+
+
+     UNROUTED CONNECTIONS

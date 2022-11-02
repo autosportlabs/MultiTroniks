@@ -1,0 +1,197 @@
+----------------------------------
+MicroCode Engineering   TraxMaker
+Gerber Aperture Match List
+PCB File : GERBER$$.PCB
+APT File : C:\DESIGN\DEV\Vac1b
+Date     : 4/29/98
+Time     : 2:21:25 PM
+----------------------------------
+ASSIGNING       : Track                   (1)                   
+Stroke Y Method : D11     Circular        (8 x 8)        0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (125 x 125)    PWR/GND
+Flash Method    : D32     Circular        (125 x 125)    0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (125 x 125)    PAS MSK
+Flash Method    : D32     Circular        (125 x 125)    0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (125 x 125)    SOL MSK
+Flash Method    : D32     Circular        (125 x 125)    0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (125 x 125)           
+Flash Method    : D32     Circular        (125 x 125)    0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (50 x 50)      PWR/GND
+Flash Method    : D24     Circular        (50 x 50)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (50 x 50)      PAS MSK
+Flash Method    : D24     Circular        (50 x 50)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (50 x 50)      SOL MSK
+Flash Method    : D24     Circular        (50 x 50)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (50 x 50)             
+Flash Method    : D24     Circular        (50 x 50)      0 (Hole Size)
+
+ASSIGNING       : Arc                     (8)                   
+Stroke Y Method : D11     Circular        (8 x 8)        0 (Hole Size)
+
+ASSIGNING       : Track                   (12)                  
+Stroke Y Method : D14     Circular        (12 x 12)      0 (Hole Size)
+
+ASSIGNING       : Track                   (8)                   
+Stroke Y Method : D11     Circular        (8 x 8)        0 (Hole Size)
+
+ASSIGNING       : Arc                     (10)                  
+Stroke Y Method : D13     Circular        (10 x 10)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (40 x 40)      PWR/GND
+Flash Method    : D20     Circular        (40 x 40)      0 (Hole Size)
+
+ASSIGNING       : Via                     (40)           PAS MSK
+Flash Method    : D20     Circular        (40 x 40)      0 (Hole Size)
+
+ASSIGNING       : Via                     (40)           SOL MSK
+Flash Method    : D20     Circular        (40 x 40)      0 (Hole Size)
+
+ASSIGNING       : Via                     (40)                  
+Flash Method    : D20     Circular        (40 x 40)      0 (Hole Size)
+
+ASSIGNING       : Track                   (35)                  
+Stroke Y Method : D20     Circular        (40 x 40)      0 (Hole Size)
+
+ASSIGNING       : Track                   (15)                  
+Stroke Y Method : D15     Circular        (15 x 15)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (62 x 62)      PAS MSK
+Flash Method    : D26     Circular        (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (62 x 62)      SOL MSK
+Flash Method    : D26     Circular        (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (62 x 62)             
+Flash Method    : D26     Circular        (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (62 x 62)      PWR/GND
+Flash Method    : D26     Circular        (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Text                    (10)                  
+Stroke Y Method : D13     Circular        (10 x 10)      0 (Hole Size)
+
+ASSIGNING       : Track                   (10)                  
+Stroke Y Method : D13     Circular        (10 x 10)      0 (Hole Size)
+
+ASSIGNING       : Pad     Rectangular     (62 x 62)      PAS MSK
+Flash Method    : D25     Rectangular     (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Rectangular     (62 x 62)      SOL MSK
+Flash Method    : D25     Rectangular     (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Rectangular     (62 x 62)             
+Flash Method    : D25     Rectangular     (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Fill                    (45 x 40)             
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+FILL 2        : D19     Circular        (30 x 30)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (20 x 155)            
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (45 x 185)            
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+FILL 2        : D19     Circular        (30 x 30)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (45 x 60)             
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+FILL 2        : D19     Circular        (30 x 30)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (40 x 70)             
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+FILL 2        : D19     Circular        (30 x 30)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (50 x 55)             
+FILL 1        : D23     Rectangular     (50 x 50)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (280 x 115)           
+FILL 1        : D25     Rectangular     (62 x 62)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (50 x 50)             
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+FILL 2        : D19     Circular        (30 x 30)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (445 x 230)           
+FILL 1        : D25     Rectangular     (62 x 62)          0 (Hole Size)
+FILL 2        : D34     Circular        (200 x 200)        0 (Hole Size)
+
+ASSIGNING       : Fill                    (305 x 95)            
+FILL 1        : D25     Rectangular     (62 x 62)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (470 x 235)           
+FILL 1        : D25     Rectangular     (62 x 62)          0 (Hole Size)
+FILL 2        : D34     Circular        (200 x 200)        0 (Hole Size)
+
+ASSIGNING       : Fill                    (30 x 25)             
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (55 x 40)             
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+FILL 2        : D19     Circular        (30 x 30)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (40 x 60)             
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+FILL 2        : D19     Circular        (30 x 30)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (30 x 30)             
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (35 x 40)             
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (200 x 90)            
+FILL 1        : D25     Rectangular     (62 x 62)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (30 x 60)             
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (35 x 75)             
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (30 x 90)             
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (65 x 70)             
+FILL 1        : D23     Rectangular     (50 x 50)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (25 x 185)            
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (90 x 225)            
+FILL 1        : D25     Rectangular     (62 x 62)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (970 x 425)           
+FILL 1        : D25     Rectangular     (62 x 62)          0 (Hole Size)
+FILL 2        : D35     Circular        (250 x 250)        0 (Hole Size)
+
+ASSIGNING       : Fill                    (130 x 50)            
+FILL 1        : D23     Rectangular     (50 x 50)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (205 x 325)           
+FILL 1        : D25     Rectangular     (62 x 62)          0 (Hole Size)
+FILL 2        : D33     Circular        (150 x 150)        0 (Hole Size)
+
+ASSIGNING       : Fill                    (35 x 50)             
+FILL 1        : D16     Rectangular     (20 x 20)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (15 x 110)            
+FILL 1        : D12     Rectangular     (10 x 10)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (75 x 150)            
+FILL 1        : D25     Rectangular     (62 x 62)          0 (Hole Size)
+
+ASSIGNING       : Fill                    (185 x 220)           
+FILL 1        : D25     Rectangular     (62 x 62)          0 (Hole Size)
+FILL 2        : D33     Circular        (150 x 150)        0 (Hole Size)
+
+ASSIGNING       : Fill                    (55 x 115)            
+FILL 1        : D23     Rectangular     (50 x 50)          0 (Hole Size)
+

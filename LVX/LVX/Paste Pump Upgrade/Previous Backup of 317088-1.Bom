@@ -1,0 +1,14 @@
+Bill of Material for 317088-1.Bom
+
+Used Part Type Designator Part Field 1 
+==== ========= ========== ============ 
+1    1N914     D1         12005-       
+3    1k        R2 R4 R9   15348-       
+4    2N3904    Q2 Q3 Q4   11089-       
+               Q5                      
+1    2N3906    Q1         11835-            
+6    5.6k      R1 R3 R5   16314-       
+               R6 R7 R10               
+1    CON2      J2         17543-2      
+1    CON3      J1         17543-3      
+1    PB NO     S1         18699-       

@@ -1,0 +1,31 @@
+ *** Aperture List for LVX2MI ***
+ 
+    PAD DEFINITIONS         FLASH CODE
+    ===============         ==========
+ 
+ROUNDED      50     50      D10
+ROUNDED      54     54      D11
+ROUNDED      62     62      D12
+ROUNDED     150    150      D13
+ROUNDED     100    100      D14
+RECTANGLE    62     62      D15
+ROUNDED      60     60      D16
+ROUNDED      64     64      D17
+ROUNDED      72     72      D18
+ROUNDED     160    160      D19
+ROUNDED     110    110      D20
+RECTANGLE    72     72      D21
+ 
+   LINE DRAW WIDTHS         FLASH CODE
+   ================         ==========
+ 
+    5 (mils)                D22
+    8 (mils)                D23
+   10 (mils)                D24
+   12 (mils)                D25
+   15 (mils)                D26
+   20 (mils)                D27
+   30 (mils)                D28
+   35 (mils)                D29
+   40 (mils)                D30
+   42 (mils)                D31

@@ -1,0 +1,2 @@
+@echo off
+C:\MICROCH\PICC\CCSC.EXE +FM C:\MICROCH\VACSWTCH\VS.C > tmp00.out

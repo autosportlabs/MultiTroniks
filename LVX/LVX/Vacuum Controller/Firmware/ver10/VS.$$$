@@ -1,0 +1,216 @@
+ /*    Vaccuum Switch Controller    							*/     1 
+/*    Revision 1.0 5/5/98          							*/     2 
+     3 
+#include "16C71.H"     4 
+ //////// Standard Header file for the PIC16C71 device ////////  2049 
+#device PIC16C71  2050 
+#nolist  2051N
+/////////////////////////////// I/O definitions for INPUT() and OUTPUT_xxx()  2052N
+#define PIN_A0  40  2053N
+#define PIN_A1  41  2054N
+#define PIN_A2  42  2055N
+#define PIN_A3  43  2056N
+#define PIN_A4  44  2057N
+  2058N
+#define PIN_B0  48  2059N
+#define PIN_B1  49  2060N
+#define PIN_B2  50  2061N
+#define PIN_B3  51  2062N
+#define PIN_B4  52  2063N
+#define PIN_B5  53  2064N
+#define PIN_B6  54  2065N
+#define PIN_B7  55  2066N
+  2067N
+/////////////////////////////// Useful defines  2068N
+#define FALSE 0  2069N
+#define TRUE 1  2070N
+  2071N
+#define BYTE int  2072N
+#define BOOLEAN short int  2073N
+  2074N
+#define getc getch  2075N
+#define getchar getch  2076N
+#define puts(s) {printf(s); putchar(13); putchar(10);}  2077N
+#define putc putchar  2078N
+  2079N
+/////////////////////////////// Constants used for RESTART_CAUSE()  2080N
+#define WDT_FROM_SLEEP  0  2081N
+#define WDT_TIMEOUT     8  2082N
+#define MCLR_FROM_SLEEP 16  2083N
+#define NORMAL_POWER_UP 24  2084N
+/////////////////////////////// Constants used for SETUP_COUNTERS()  2085N
+#define RTCC_INTERNAL   0  2086N
+#define RTCC_EXT_L_TO_H 32  2087N
+#define RTCC_EXT_H_TO_L 48  2088N
+#define RTCC_DIV_2      0  2089N
+#define RTCC_DIV_4      1  2090N
+#define RTCC_DIV_8      2  2091N
+#define RTCC_DIV_16     3  2092N
+#define RTCC_DIV_32     4  2093N
+#define RTCC_DIV_64     5  2094N
+#define RTCC_DIV_128    6  2095N
+#define RTCC_DIV_256    7  2096N
+#define WDT_18MS        8  2097N
+#define WDT_36MS        9  2098N
+#define WDT_72MS       10  2099N
+#define WDT_144MS      11  2100N
+#define WDT_288MS      12  2101N
+#define WDT_576MS      13  2102N
+#define WDT_1152MS     14  2103N
+#define WDT_2304MS     15  2104N
+#define L_TO_H              0x40  2105N
+#define H_TO_L                 0  2106N
+  2107N
+#define RTCC_ZERO           0x0B20    // Used for ENABLE/DISABLE INTERRUPTS  2108N
+#define RB_CHANGE           0x0B08    // Used for ENABLE/DISABLE INTERRUPTS  2109N
+#define EXT_INT             0x0B10    // Used for ENABLE/DISABLE INTERRUPTS  2110N
+  2111N
+#define GLOBAL              0x0B80    // Used for ENABLE/DISABLE INTERRUPTS  2112N
+///////////////////////////////////// Constants used for SETUP_ADC()  2113N
+#define NO_ANALOGS             3  2114N
+#define ALL_ANALOG             0  2115N
+#define ANALOG_RA3_REF         1  2116N
+#define RA0_RA1_ANALOG         2  2117N
+#define ADC_OFF                0  2118N
+#define ADC_CLOCK_DIV_2        1  2119N
+#define ADC_CLOCK_DIV_8     0x41  2120N
+#define ADC_CLOCK_DIV_32    0x81  2121N
+#define ADC_CLOCK_INTERNAL  0xc1  2122N
+  2123N
+#define ADC_DONE            0x40    // Used for ENABLE/DISABLE INTERRUPTS  2124N
+  2125N
+#list  2126 
+    4 
+     5 
+			//application specific definitions     6 
+#define min_vac 20     7 
+#define vac_solonoid PIN_B0		//input pc calling for vacuum     8 
+#define vacuum_sense PIN_B1		//output component confirmation to pc     9 
+#define vacuum_sol_drive PIN_B2		//output to turn vac sol on    10 
+#define vac_generator PIN_B6		//output to turn vac gen on    11 
+    12 
+			//global definitions    13 
+int baseline,time;    14 
+    15 
+    16 
+    17 
+#fuses XT,NOPROTECT,NOWDT    18 
+#use DELAY(clock=4000000)    19 
+#use Standard_IO(A)    20 
+#use Standard_IO(B)    21 
+    22 
+    23 
+void INITIALIZE()			//startup    24 
+{    25 
+	//set_tris_a(0x0F);		//=b'1111'    26 
+	//set_tris_b(0xFF);		//=b'11111001'    27 
+	setup_port_a(RA0_RA1_ANALOG);	//set up a2d    28 
+	setup_adc(ADC_CLOCK_DIV_2);    29 
+	set_adc_channel(0);    30 
+	baseline = 100;    31 
+	time = 32;			//each 16 is one second delay    32 
+	output_high(vacuum_sense);    33 
+	delay_ms(400);    34 
+	output_low(vacuum_sense);    35 
+	delay_ms(400);    36 
+	output_high(vacuum_sense);    37 
+	delay_ms(400);    38 
+	output_low(vacuum_sense);    39 
+	delay_ms(400);    40 
+	output_high(vacuum_sense);    41 
+	delay_ms(400);    42 
+	output_low(vacuum_sense);    43 
+}    44 
+    45 
+    46 
+void SAMPLING()    47 
+{	int sample;    48 
+    49 
+	output_high(vac_generator);    50 
+	do    51 
+	{	delay_us(400);				//400sets sample rate at 2500Hz    52 
+		sample = read_adc()/2;			//takes average of two samples    53 
+		delay_us(400);    54 
+		sample = sample + read_adc()/2;    55 
+		if (sample < baseline) output_low(vacuum_sense);    56 
+		else output_high(vacuum_sense);    57 
+	} while (!input(vac_solonoid));			//is solinoid on?    58 
+	if (sample > baseline)     59 
+	{	    60 
+ 		do    61 
+		{delay_us(400);				//sets sample rate at 2500Hz    62 
+		sample = read_adc()/2;			//takes average of two samples    63 
+		delay_us(400);    64 
+		sample = sample + read_adc()/2;    65 
+		} while (sample > min_vac);		//is vacuum low?    66 
+ 		output_low(vacuum_sense);    67 
+	}    68 
+	setup_counters(rtcc_internal,rtcc_div_256);	//sets up 2 second delay for generator    69 
+	set_rtcc(1);    70 
+	time = 0;    71 
+	return;    72 
+}    73 
+    74 
+    75 
+void READ_BASELINE()    76 
+{	int x;    77 
+	long temp;    78 
+    79 
+	output_high(vac_generator);    80 
+	output_high(vacuum_sol_drive);    81 
+	delay_ms(300);    82 
+	baseline = 0;    83 
+	temp = 0;    84 
+	for (x = 0;x != 8;x++){    85 
+		delay_ms(2);    86 
+		temp = temp + read_adc();    87 
+		}    88 
+	temp = temp / 8;				//take average of 8 samples    89 
+	baseline = 4 + temp + (211 - temp)/8;		//baseline1 = 4 + baseline0 +.125*(maxvac-baseline0)    90 
+	output_low(vacuum_sense);    91 
+	output_low(vac_generator);    92 
+	output_low(vacuum_sol_drive);    93 
+	return;    94 
+}    95 
+    96 
+    97 
+void MODE()						//setup baseline or normal sample mode?    98 
+{	int test,logic;    99 
+   100 
+	logic = 1;   101 
+	test = 1;   102 
+	setup_counters(rtcc_internal,rtcc_div_8);   103 
+	set_rtcc(68);   104 
+	do						//test to see 3 changes in state   105 
+	{	if (input(vac_solonoid) == logic)   106 
+		{	test = test + 1;   107 
+			if (logic == 0) logic = 1;   108 
+			else logic = 0;   109 
+		}   110 
+	} while (get_rtcc() > 67);			//check mode for 1.5ms   111 
+	if (test == 5) output_high(vacuum_sense);   112 
+	if (test >= 4) READ_BASELINE();			//if one or more toggle then goto setup   113 
+	else SAMPLING();   114 
+	return;   115 
+}   116 
+   117 
+	   118 
+TIMEOFF()						//check to see if 2 seconds has elapsed	   119 
+{	if (time == 32) return;				//before the vacuum gen will be shut off   120 
+	else   121 
+	{	time++;   122 
+		set_rtcc(1);   123 
+		if (time == 32) output_low(vac_generator);   124 
+		return;   125 
+	}   126 
+}   127 
+   128 
+MAIN()   129 
+{	INITIALIZE();   130 
+	do   131 
+	{   132 
+		if (!input(vac_solonoid)) MODE();   133 
+		if (get_rtcc() == 0) TIMEOFF();   134 
+	} while(true);	   135 
+}   136 
+

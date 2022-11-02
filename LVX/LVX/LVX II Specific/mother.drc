@@ -1,0 +1,20 @@
+Board filename: C:\DESIGN\LVX2\mother.pcb
+Netlist: *.NET
+9/21/98  5:05:58 PM
+
+
+Net  NET21 Broken Into 2 Sub-Nets
+Sub-Net 1
+J11-29              J14C-6              
+Sub-Net 2
+J16A-2              
+
+
+Net  NET26 Broken Into 2 Sub-Nets
+Sub-Net 1
+J16C-3              
+Sub-Net 2
+J15-10              
+
+
+2 errors found.

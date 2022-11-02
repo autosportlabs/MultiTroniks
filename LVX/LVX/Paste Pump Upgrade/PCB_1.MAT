@@ -1,0 +1,104 @@
+----------------------------------
+MicroCode Engineering   TraxMaker
+Gerber Aperture Match List
+PCB File : GERBER$$.PCB
+APT File : O:\TRXFILES\Paste\PCB_1
+Date     : 5/21/99
+Time     : 3:29:18 PM
+----------------------------------
+ASSIGNING       : Pad     Circular        (52 x 52)      PWR/GND
+Flash Method    : D11     Circular        (52 x 52)      0 (Hole Size)
+
+ASSIGNING       : Via                     (52)           PAS MSK
+Flash Method    : D11     Circular        (52 x 52)      0 (Hole Size)
+
+ASSIGNING       : Via                     (52)           SOL MSK
+Flash Method    : D11     Circular        (52 x 52)      0 (Hole Size)
+
+ASSIGNING       : Via                     (52)                  
+Flash Method    : D11     Circular        (52 x 52)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (240 x 240)    PWR/GND
+Flash Method    : D12     Circular        (240 x 240)    0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (240 x 240)    PAS MSK
+Flash Method    : D12     Circular        (240 x 240)    0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (240 x 240)    SOL MSK
+Flash Method    : D12     Circular        (240 x 240)    0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (240 x 240)           
+Flash Method    : D12     Circular        (240 x 240)    0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (40 x 40)      PWR/GND
+Flash Method    : D13     Circular        (40 x 40)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (62 x 62)      PWR/GND
+Flash Method    : D14     Circular        (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (62 x 62)      PAS MSK
+Flash Method    : D14     Circular        (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (62 x 62)      SOL MSK
+Flash Method    : D14     Circular        (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (62 x 62)             
+Flash Method    : D14     Circular        (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Track                   (12)                  
+Stroke Y Method : D15     Circular        (12 x 12)      0 (Hole Size)
+
+ASSIGNING       : Track                   (14)                  
+Stroke Y Method : D16     Circular        (14 x 14)      0 (Hole Size)
+
+ASSIGNING       : Text                    (8)                   
+Stroke Y Method : D17     Circular        (8 x 8)        0 (Hole Size)
+
+ASSIGNING       : Track                   (8)                   
+Stroke Y Method : D17     Circular        (8 x 8)        0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (70 x 70)      PWR/GND
+Flash Method    : D18     Circular        (70 x 70)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (70 x 70)      PAS MSK
+Flash Method    : D18     Circular        (70 x 70)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (70 x 70)      SOL MSK
+Flash Method    : D18     Circular        (70 x 70)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (70 x 70)             
+Flash Method    : D18     Circular        (70 x 70)      0 (Hole Size)
+
+ASSIGNING       : Text                    (10)                  
+Stroke Y Method : D19     Circular        (10 x 10)      0 (Hole Size)
+
+ASSIGNING       : Track                   (10)                  
+Stroke Y Method : D19     Circular        (10 x 10)      0 (Hole Size)
+
+ASSIGNING       : Pad     Rectangular     (62 x 62)      PAS MSK
+Flash Method    : D20     Rectangular     (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Rectangular     (62 x 62)      SOL MSK
+Flash Method    : D20     Rectangular     (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Rectangular     (62 x 62)             
+Flash Method    : D20     Rectangular     (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Rectangular     (70 x 70)      PAS MSK
+Flash Method    : D21     Rectangular     (70 x 70)      0 (Hole Size)
+
+ASSIGNING       : Pad     Rectangular     (70 x 70)      SOL MSK
+Flash Method    : D21     Rectangular     (70 x 70)      0 (Hole Size)
+
+ASSIGNING       : Pad     Rectangular     (70 x 70)             
+Flash Method    : D21     Rectangular     (70 x 70)      0 (Hole Size)
+
+ASSIGNING       : Pad     RoundRect       (60 x 40)      PAS MSK
+Flash Method    : D22     RoundRect       (60 x 40)      0 (Hole Size)
+
+ASSIGNING       : Pad     RoundRect       (60 x 40)      SOL MSK
+Flash Method    : D22     RoundRect       (60 x 40)      0 (Hole Size)
+
+ASSIGNING       : Pad     RoundRect       (60 x 40)             
+Flash Method    : D22     RoundRect       (60 x 40)      0 (Hole Size)
+

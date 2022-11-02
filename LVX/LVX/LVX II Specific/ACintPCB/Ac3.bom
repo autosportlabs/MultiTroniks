@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+D:\DESIGN\LVX2\ACintPCB\Ac3.bom    Bill of Materials    5/11/99  10:50:59 AM     Page : 1
+-------------------------------------------------------------------------------
+Item   Label-Value              Pattern    QTY    Designation(s)
+1                               IDC20        1    J3, 
+2                               IDC10        1    J4, 
+3                               MOLEX12      2    J1, J2, 
+4                               DIP16        1    U1, 
+5                               RB.2/.4      1    C1, 
+
+Total number of components : 6

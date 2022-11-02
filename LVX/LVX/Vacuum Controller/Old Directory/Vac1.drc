@@ -1,0 +1,14 @@
+Board filename: C:\DESIGN\DEV\Vac1.PCB
+Netlist: C:\DESIGN\DEV\vac1.net
+4/28/98  5:05:09 PM
+
+
+Net  NET3 Broken Into 2 Sub-Nets
+Sub-Net 1
+S1-2                R4-2                Q5-2                
+Sub-Net 2
+U1-14               R9-2                C2-2                C1-1                
+Q3-3                
+
+
+1 error found.

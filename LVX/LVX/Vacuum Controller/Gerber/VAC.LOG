@@ -1,0 +1,40 @@
+     TRAXMAKER VERSION 2.0 STATISTICS LOG
+     LOG FILENAME : C:\DESIGN\DEV\Vac.LOG
+     DATE         : 4-14-1998
+     TIME         : 14:25
+
+     INPUT  .PCB FILE : C:\DESIGN\DEV\Vac.PCB
+
+     ROUTE VARIABLE SETTINGS
+     Grid Size        : 25
+     Track Size       : 20
+     Via Size         : 25
+     Arc Size         : 50
+     Track to Track   : 10
+     Track to Pad/Via : 10
+     Via to Via       : 10
+     Via to Pad       : 10
+     Wave Limit       : 1
+
+     ROUTING PERFORMANCE 
+     Pass                 Connections        Percentage        Time in
+     Title                   Routed          Completed         Pass 
+     Process Pre-Routes         0                0.0           00:00:02
+     Smd to Pwr/Gnd                                            Not Used
+     Memory Routes              2                4.8           00:00:01
+     Horizontal                 6               14.3           00:00:00
+     Vertical                   3                7.1           00:00:01
+     L-Routes    (2 Via)       20               47.6           00:00:02
+     Z-Routes    (2 Via)        2                4.8           00:00:02
+     C-Routes    (2 Via)        2                4.8           00:00:02
+     Any Node    (2 Via)        0                0.0           00:00:04
+     Maze Routes (3 Via)        0                0.0           00:00:06
+     Any Node    (3 Via)        0                0.0           00:00:12
+                  Totals :     35               83.3           00:00:32
+
+     SMOOTHING NOT ENABLED
+
+     Via Minimization                                          Not Used
+     Loop Remover                                              Not Used
+
+     Process Aborted

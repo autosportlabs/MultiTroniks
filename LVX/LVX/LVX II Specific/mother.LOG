@@ -1,0 +1,51 @@
+     TRAXMAKER VERSION 2.0 STATISTICS LOG
+     LOG FILENAME : C:\DESIGN\LVX2\mother.LOG
+     DATE         : 9-21-1998
+     TIME         : 17:03
+
+     INPUT  .PCB FILE : C:\DESIGN\LVX2\mother.pcb
+
+     ROUTE VARIABLE SETTINGS
+     Grid Size        : 10
+     Track Size       : 5
+     Via Size         : 50
+     Arc Size         : 50
+     Track to Track   : 1
+     Track to Pad/Via : 1
+     Via to Via       : 1
+     Via to Pad       : 1
+     Wave Limit       : 1
+
+     ROUTING PERFORMANCE 
+     Pass                 Connections        Percentage        Time in
+     Title                   Routed          Completed         Pass 
+     Process Pre-Routes       210               84.7           00:00:05
+     Smd to Pwr/Gnd                                            Not Used
+     Memory Routes              0                0.0           00:00:00
+     Horizontal                 2                0.8           00:00:00
+     Vertical                   0                0.0           00:00:00
+     L-Routes    (2 Via)        3                1.2           00:00:02
+     Z-Routes    (2 Via)        5                2.0           00:00:06
+     C-Routes    (2 Via)       17                6.9           00:00:07
+     Any Node    (2 Via)        4                1.6           00:00:09
+     Maze Routes (3 Via)        5                2.0           00:00:12
+     Any Node    (3 Via)                                       Not Used
+                  Totals :    246               99.2           00:00:41
+
+     SMOOTHING NOT ENABLED
+
+     Via Minimization          77                 70           00:00:14
+     Loop Remover               1                  0           00:00:18
+     Double Back Remover        0                  0           00:00:18
+     Dual Stub Remover          0                  0           00:00:16
+     Two Via Remover            0                  0           00:00:00
+     Arc Replacer                                              Not Used
+
+
+     UNROUTED CONNECTIONS
+     Net Name : NET21               
+        J14C-6 to J16A-2   
+
+     Net Name : NET26               
+        J16C-3 to J15-10  
+

@@ -1,0 +1,45 @@
+     TRAXMAKER VERSION 2.0 STATISTICS LOG
+     LOG FILENAME : C:\DESIGN\TH8\MOTION_INT.LOG
+     DATE         : 12-3-1998
+     TIME         : 12:49
+
+     INPUT  .PCB FILE : C:\DESIGN\TH8\MOTION_INT.PCB
+
+     ROUTE VARIABLE SETTINGS
+     Grid Size        : 5
+     Track Size       : 10
+     Via Size         : 30
+     Arc Size         : 100
+     Track to Track   : 5
+     Track to Pad/Via : 5
+     Via to Via       : 5
+     Via to Pad       : 5
+     Wave Limit       : 1
+
+     ROUTING PERFORMANCE 
+     Pass                 Connections        Percentage        Time in
+     Title                   Routed          Completed         Pass 
+     Process Pre-Routes       215              100.0           00:00:02
+     Smd to Pwr/Gnd                                            Not Used
+     Memory Routes              0                0.0           00:00:00
+     Horizontal                 0                0.0           00:00:00
+     Vertical                   0                0.0           00:00:00
+     L-Routes    (2 Via)        0                0.0           00:00:00
+     Z-Routes    (2 Via)        0                0.0           00:00:00
+     C-Routes    (2 Via)        0                0.0           00:00:00
+     Any Node    (2 Via)        0                0.0           00:00:00
+     Maze Routes (3 Via)        0                0.0           00:00:00
+     Any Node    (3 Via)        0                0.0           00:00:00
+                  Totals :    215              100.0           00:00:02
+
+     SMOOTHING NOT ENABLED
+
+     Via Minimization          37                 42           00:00:03
+     Loop Remover                                              Not Used
+     Double Back Remover        0                  0           00:00:01
+     Dual Stub Remover                                         Not Used
+     Two Via Remover            1                  1           00:00:00
+     Arc Replacer                                              Not Used
+
+
+     UNROUTED CONNECTIONS

@@ -1,0 +1,52 @@
+BOM FOR VACUUM SENSOR BOARD   P/N 217075-
+-----------------------------------------
+
+Parts list for circuit:
+C:\DESIGN\DEV\VAC1.CIR
+-----------------------
+
+C5: 2.2uF/16V ELEC.CAP (1)			14048-
+
+Q5: MC34064  (1)					10443-
+
+Q4,Q2,Q1: 2N3904 NPN (3)			  -	   NEWARK   (MOT.)		
+
+RN1 : 10k RESISTOR (1)				16247-			
+
+C2: .01uF CER. CAP. CAP (1)			13521-
+
+C4,C3: 22pf CER. CAP. CAP (2)			13534-			
+
+XL1: 4.000MHZ (1)					18492-
+
+D1: RED LED 3MM/3MM DIODE (1)			18702-
+
+C1: 10uF ELEC.CAP CAP (1) 			14032-
+
+J1,J2,J4: HEADER 2 PIN MO (3)			14543-2
+
+J3: HEADER 3 PIN MO (1)				14543-3
+
+TP1: TP (1)						17594-   (3 Pins for each board)
+
+Q3: 5V REG  LM78L05ACZ (1)			  -	   DIGI-KEY    (NATIONAL)
+
+S1: PRESSURE SENSOR (1)				18681-
+
+U1: PIC16C71 (1)
+
+R12: 150 RESISTOR (1)				  -
+
+R10,R7,R3: 56k RESISTOR (3)			15390-
+
+R11,R6: 2.2k RESISTOR (2)			15356-
+
+R5: 750k RESISTOR (1)				  -
+
+R1: 10M RESISTOR (1)				15424-
+
+R4: 510 RESISTOR (1)				15341-
+
+R8: 1K RESISTOR (1)				15348-
+
+R9,R2: 10k RESISTOR (2)				15372-

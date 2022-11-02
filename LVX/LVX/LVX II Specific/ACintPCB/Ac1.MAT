@@ -1,0 +1,77 @@
+----------------------------------
+MicroCode Engineering   TraxMaker
+Gerber Aperture Match List
+PCB File : GERBER$$.PCB
+APT File : C:\DESIGN\LVX2\ACintPCB\Ac1
+Date     : 6/3/98
+Time     : 10:23:31 AM
+----------------------------------
+ASSIGNING       : Arc                     (10)                  
+Stroke Y Method : D13     Circular        (10 x 10)      0 (Hole Size)
+
+ASSIGNING       : Arc                     (8)                   
+Stroke Y Method : D11     Circular        (8 x 8)        0 (Hole Size)
+
+ASSIGNING       : Track                   (8)                   
+Stroke Y Method : D11     Circular        (8 x 8)        0 (Hole Size)
+
+ASSIGNING       : Track                   (20)                  
+Stroke Y Method : D17     Circular        (20 x 20)      0 (Hole Size)
+
+ASSIGNING       : Track                   (12)                  
+Stroke Y Method : D14     Circular        (12 x 12)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (40 x 40)      PWR/GND
+Flash Method    : D20     Circular        (40 x 40)      0 (Hole Size)
+
+ASSIGNING       : Via                     (40)           PAS MSK
+Flash Method    : D20     Circular        (40 x 40)      0 (Hole Size)
+
+ASSIGNING       : Via                     (40)           SOL MSK
+Flash Method    : D20     Circular        (40 x 40)      0 (Hole Size)
+
+ASSIGNING       : Via                     (40)                  
+Flash Method    : D20     Circular        (40 x 40)      0 (Hole Size)
+
+ASSIGNING       : Track                   (15)                  
+Stroke Y Method : D15     Circular        (15 x 15)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (62 x 62)      PWR/GND
+Flash Method    : D26     Circular        (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (62 x 62)      PAS MSK
+Flash Method    : D26     Circular        (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (62 x 62)      SOL MSK
+Flash Method    : D26     Circular        (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (62 x 62)             
+Flash Method    : D26     Circular        (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (125 x 125)    PWR/GND
+Flash Method    : D32     Circular        (125 x 125)    0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (125 x 125)    PAS MSK
+Flash Method    : D32     Circular        (125 x 125)    0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (125 x 125)    SOL MSK
+Flash Method    : D32     Circular        (125 x 125)    0 (Hole Size)
+
+ASSIGNING       : Pad     Circular        (125 x 125)           
+Flash Method    : D32     Circular        (125 x 125)    0 (Hole Size)
+
+ASSIGNING       : Text                    (10)                  
+Stroke Y Method : D13     Circular        (10 x 10)      0 (Hole Size)
+
+ASSIGNING       : Track                   (10)                  
+Stroke Y Method : D13     Circular        (10 x 10)      0 (Hole Size)
+
+ASSIGNING       : Pad     Rectangular     (62 x 62)      PAS MSK
+Flash Method    : D25     Rectangular     (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Rectangular     (62 x 62)      SOL MSK
+Flash Method    : D25     Rectangular     (62 x 62)      0 (Hole Size)
+
+ASSIGNING       : Pad     Rectangular     (62 x 62)             
+Flash Method    : D25     Rectangular     (62 x 62)      0 (Hole Size)
+

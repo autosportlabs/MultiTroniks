@@ -1,0 +1,45 @@
+     TRAXMAKER VERSION 2.0 STATISTICS LOG
+     LOG FILENAME : O:\TRXFILES\Paste\PCB_1.LOG
+     DATE         : 5-21-1999
+     TIME         : 12:25
+
+     INPUT  .PCB FILE : O:\TRXFILES\Paste\PCB_1.PCB
+
+     ROUTE VARIABLE SETTINGS
+     Grid Size        : 4
+     Track Size       : 14
+     Via Size         : 42
+     Arc Size         : 100
+     Track to Track   : 14
+     Track to Pad/Via : 14
+     Via to Via       : 14
+     Via to Pad       : 14
+     Wave Limit       : 1
+
+     ROUTING PERFORMANCE 
+     Pass                 Connections        Percentage        Time in
+     Title                   Routed          Completed         Pass 
+     Process Pre-Routes         0                0.0           00:00:01
+     Smd to Pwr/Gnd                                            Not Used
+     Memory Routes              5               16.7           00:00:00
+     Horizontal                 2                6.7           00:00:01
+     Vertical                   3               10.0           00:00:00
+     L-Routes    (2 Via)       14               46.7           00:00:01
+     Z-Routes    (2 Via)        3               10.0           00:00:01
+     C-Routes    (2 Via)        3               10.0           00:00:01
+     Any Node    (2 Via)        0                0.0           00:00:00
+     Maze Routes (3 Via)        0                0.0           00:00:00
+     Any Node    (3 Via)                                       Not Used
+                  Totals :     30              100.0           00:00:05
+
+     SMOOTHING NOT ENABLED
+
+     Via Minimization          19                 15           00:00:02
+     Loop Remover               3                  0           00:00:03
+     Double Back Remover        0                  0           00:00:02
+     Dual Stub Remover          1                  0           00:00:03
+     Two Via Remover            0                  0           00:00:00
+     Arc Replacer                                              Not Used
+
+
+     UNROUTED CONNECTIONS
